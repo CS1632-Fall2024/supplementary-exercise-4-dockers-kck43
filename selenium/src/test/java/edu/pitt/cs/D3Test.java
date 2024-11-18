@@ -39,11 +39,11 @@ public class D3Test {
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
-
+    
     ChromeOptions options = new ChromeOptions();
     options.addArguments("--headless");
     driver = new ChromeDriver(options);
-    
+
   }
   @After
   public void tearDown() {
